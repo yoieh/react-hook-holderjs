@@ -21,7 +21,7 @@ const Example = () => {
   useHolderjs();
   return (
     <div>
-      <img data-src="holder.js/300x200">
+      <img data-src="holder.js/300x200"/>
     </div>
   )
 }
