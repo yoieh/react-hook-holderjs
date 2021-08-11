@@ -1,6 +1,6 @@
 {
   "name": "use-holderjs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A react hook for using holderjs",
   "author": "yoieh",
   "license": "MIT",
