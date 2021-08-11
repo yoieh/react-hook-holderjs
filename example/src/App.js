@@ -3,10 +3,10 @@ import React from 'react'
 import { useHolderjs } from 'react-hook-holderjs'
 
 const App = () => {
-  const example = useHolderjs()
+  useHolderjs();
   return (
     <div>
-      {example}
+      <img data-src="holder.js/300x200"/>
     </div>
   )
 }
