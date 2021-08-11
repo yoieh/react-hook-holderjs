@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "66108a273191cdeb43bf46821e42ac85",
+    "revision": "9baa55bd42711cc6aedc0f57ed85a555",
     "url": "/react-hook-holderjs/index.html"
   },
   {
-    "revision": "44c5cd635da2b2512960",
+    "revision": "4d56325f08863d2b7521",
     "url": "/react-hook-holderjs/static/css/main.2c6a48fe.chunk.css"
   },
   {
@@ -16,12 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-hook-holderjs/static/js/2.ecea1f79.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "44c5cd635da2b2512960",
-    "url": "/react-hook-holderjs/static/js/main.0af6edb7.chunk.js"
+    "revision": "4d56325f08863d2b7521",
+    "url": "/react-hook-holderjs/static/js/main.2602495d.chunk.js"
   },
   {
     "revision": "a32bf14e14e2bb591d7d1ba8fbfaddd1",
-    "url": "/react-hook-holderjs/static/js/main.0af6edb7.chunk.js.LICENSE.txt"
+    "url": "/react-hook-holderjs/static/js/main.2602495d.chunk.js.LICENSE.txt"
   },
   {
     "revision": "1f96311a933ba3e6c9cc",
