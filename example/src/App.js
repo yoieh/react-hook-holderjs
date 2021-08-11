@@ -1,9 +1,9 @@
 import React from 'react'
 
-import { useMyHook } from 'react-hook-holderjs'
+import { useHolderjs } from 'react-hook-holderjs'
 
 const App = () => {
-  const example = useMyHook()
+  const example = useHolderjs()
   return (
     <div>
       {example}
