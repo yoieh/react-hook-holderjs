@@ -15,13 +15,13 @@ npm install --save react-hook-holderjs
 ```tsx
 import * as React from 'react'
 
-import { useMyHook } from 'react-hook-holderjs'
+import { useHolderjs } from 'react-hook-holderjs'
 
 const Example = () => {
-  const example = useMyHook()
+  useHolderjs();
   return (
     <div>
-      {example}
+      <img data-src="holder.js/300x200">
     </div>
   )
 }
