@@ -1,23 +1,10 @@
 import * as React from 'react';
+import holderjs from "holderjs";
 
-export const useMyHook = () => {
-  let [{
-    counter
-  }, setState] = React.useState<{
-    counter: number;
-  }>({
-    counter: 0
-  });
-
+export const useHolderjs = () => {
   React.useEffect(() => {
-    let interval = window.setInterval(() => {
-      counter++;
-      setState({counter})
-    }, 1000)
-    return () => {
-      window.clearInterval(interval);
-    };
+    holderjs.run();
   }, []);
 
-  return counter;
+  return;
 };
