@@ -1,14 +1,15 @@
 {
-  "name": "react-hook-holderjs-example",
-  "homepage": "https://yoieh.github.io/react-hook-holderjs",
+  "name": "use-holderjs-example",
+  "homepage": "https://yoieh.github.io/use-holderjs",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "holderjs": "^2.9.9",
     "react": "link:../node_modules/react",
     "react-dom": "^16.9.0",
-    "react-scripts": "^3.0.1",
-    "react-hook-holderjs": "link:.."
+    "use-holderjs": "link:..",
+    "react-scripts": "^3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

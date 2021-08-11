@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { useHolderjs } from 'react-hook-holderjs'
+import { useHolderjs } from 'use-holderjs'
 
 const App = () => {
   useHolderjs();

@@ -1,10 +1,10 @@
 {
-  "name": "react-hook-holderjs",
+  "name": "use-holderjs",
   "version": "0.0.2",
   "description": "A react hook for using holderjs",
   "author": "yoieh",
   "license": "MIT",
-  "repository": "yoieh/react-hook-holderjs",
+  "repository": "yoieh/use-holderjs",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",

@@ -1,6 +1,6 @@
 {
-  "short_name": "react-hook-holderjs",
-  "name": "react-hook-holderjs",
+  "short_name": "use-holderjs",
+  "name": "use-holderjs",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",

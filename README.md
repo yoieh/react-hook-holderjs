@@ -1,13 +1,13 @@
-# react-hook-holderjs
+# use-holderjs
 
 > 
 
-[![NPM](https://img.shields.io/npm/v/react-hook-holderjs.svg)](https://www.npmjs.com/package/react-hook-holderjs) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/use-holderjs.svg)](https://www.npmjs.com/package/use-holderjs) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-hook-holderjs
+npm install --save use-holderjs
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save react-hook-holderjs
 ```tsx
 import * as React from 'react'
 
-import { useHolderjs } from 'react-hook-holderjs'
+import { useHolderjs } from 'use-holderjs'
 
 const Example = () => {
   useHolderjs();
