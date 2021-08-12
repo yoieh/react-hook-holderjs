@@ -3,19 +3,17 @@ import React from "react";
 // import { Code } from "@mantine/core";
 import useStyles from "./Header.styles";
 // import corePackageJson from "../../../../package.json";
-import GitHubForkRibbon from 'react-github-fork-ribbon';
-
-import "react-github-button/assets/style.css";
+import GitHubForkRibbon from "react-github-fork-ribbon";
 
 const Header = () => {
   const classes = useStyles();
 
   return (
     <div className={classes.header}>
-            <GitHubForkRibbon
+      <GitHubForkRibbon
         href='//github.com/yoieh/use-holderjs'
         target='_blank'
-        color="green"
+        color='green'
       >
         Fork me on GitHub
       </GitHubForkRibbon>
