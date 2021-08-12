@@ -6,5 +6,5 @@ export const useHolderjs = () => {
     holderjs.run();
   }, []);
 
-  return;
+  return undefined;
 };
