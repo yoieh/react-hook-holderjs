@@ -31,10 +31,10 @@ export default function Head({ title, description, disableTitleTemplate }: HeadP
           property: 'og:title',
           content: title,
         },
-        {
-          property: 'og:image',
-          content: 'https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/Hero.png',
-        },
+        // {
+        //   property: 'og:image',
+        //   content: 'https://raw.githubusercontent.com/yoieh/use-holderjs',
+        // },
         {
           property: 'og:image:width',
           content: '1280',
@@ -57,7 +57,7 @@ export default function Head({ title, description, disableTitleTemplate }: HeadP
         },
         {
           name: 'twitter:creator',
-          content: '@mantinedev',
+          content: '@yoieh',
         },
         {
           name: 'twitter:title',
