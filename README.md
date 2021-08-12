@@ -2,7 +2,9 @@
 
 > 
 
-[![NPM](https://img.shields.io/npm/v/use-holderjs.svg)](https://www.npmjs.com/package/use-holderjs) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/use-holderjs.svg)](https://www.npmjs.com/package/use-holderjs) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![Build Status](https://app.travis-ci.com/yoieh/use-holderjs.svg?branch=main)](https://app.travis-ci.com/yoieh/use-holderjs)
+
+working example: [here](https://yoieh.github.io/use-holderjs/)
 
 ## Install
 
