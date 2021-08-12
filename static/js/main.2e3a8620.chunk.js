@@ -1,2 +1,0 @@
-(this["webpackJsonpuse-holderjs-example"]=this["webpackJsonpuse-holderjs-example"]||[]).push([[0],{10:function(e,n,t){"use strict";t.r(n);t(5);var r=t(0),a=t.n(r),s=t(2),c=t.n(s),l=t(3),o=t.n(l),u=function(){return Object(r.useEffect)((function(){o.a.run()}),[]),a.a.createElement("div",null,a.a.createElement("img",{"data-src":"holder.js/300x200",alt:"holder.js"}))};c.a.render(a.a.createElement(u,null),document.getElementById("root"))},4:function(e,n,t){e.exports=t(10)},5:function(e,n,t){}},[[4,1,2]]]);
-//# sourceMappingURL=main.2e3a8620.chunk.js.map
