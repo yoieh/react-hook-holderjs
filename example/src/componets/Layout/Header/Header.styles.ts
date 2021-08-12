@@ -35,32 +35,6 @@ export default createUseStyles(
       alignItems: "center"
     },
 
-    bage: {
-      flex: 1,
-      marginLeft: theme.spacing.xl,
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "flex-end",
-      paddingRight: theme.spacing.md,
-
-      [`@media (max-width: ${HEADER_BREAKPOINT}px)`]: {
-        display: "none"
-      }
-    },
-
-    links: {
-      flex: 1,
-      marginLeft: theme.spacing.xl,
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "flex-end",
-      paddingRight: theme.spacing.md,
-
-      [`@media (max-width: ${HEADER_BREAKPOINT}px)`]: {
-        display: "none"
-      }
-    },
-
     mainSection: {
       [`@media (max-width: ${/*NAVBAR_BREAKPOINT*/ 0}px)`]: {
         width: "100%",
@@ -68,40 +42,6 @@ export default createUseStyles(
         alignItems: "center",
         justifyContent: "center",
         position: "relative"
-      }
-    },
-
-    burger: {
-      display: "none",
-
-      [`@media (max-width: ${/*NAVBAR_BREAKPOINT*/ 0}px)`]: {
-        display: "block",
-        position: "absolute",
-        top: 17,
-        left: theme.spacing.md - 4
-      }
-    },
-
-    link: {
-      ...getFocusStyles(theme),
-      outline: 0,
-      display: "flex",
-      alignItems: "center",
-      color:
-        theme.colorScheme === "dark"
-          ? theme.colors.dark[1]
-          : theme.colors.gray[7],
-      textDecoration: "none",
-      borderRadius: theme.radius.sm,
-      padding: [4, theme.spacing.md],
-      height: 36,
-      boxSizing: "border-box",
-
-      "&:hover": {
-        backgroundColor:
-          theme.colorScheme === "dark"
-            ? theme.colors.dark[5]
-            : theme.colors.gray[0]
       }
     },
 
