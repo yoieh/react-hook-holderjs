@@ -92,7 +92,7 @@ const ExamplePage = () => {
               <Prism language='bash'>npm i use-holderjs</Prism>
             </Col>
 
-            <Col span={7} offset={3}>
+            <Col span={12}>
               <Text> or </Text>
             </Col>
 
