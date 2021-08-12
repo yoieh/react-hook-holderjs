@@ -1,7 +1,7 @@
 import React from "react";
 
 import { useHolderjs } from "use-holderjs";
-import "use-holderjs/dist/index.css";
+// import "use-holderjs/dist/index.css";
 
 const App = () => {
   useHolderjs();
