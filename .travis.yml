@@ -21,7 +21,7 @@ jobs:
         skip_cleanup: true
         on:
           branch: main
-          tags: true
+          # tags: true
 branches:
   only:
     - main
