@@ -22,7 +22,7 @@
     "@types/react-dom": "link:../node_modules/@types/react-dom",
     "react": "link:../node_modules/react",
     "react-dom": "link:../node_modules/react-dom",
-    "react-github-button": "^0.1.11",
+    "react-github-buttons": "^0.5.0",
     "react-helmet": "^6.1.0",
     "react-jss": "^10.7.1",
     "react-scripts": "link:../node_modules/react-scripts",
@@ -31,7 +31,6 @@
   },
   "devDependencies": {
     "@babel/plugin-syntax-object-rest-spread": "^7.8.3",
-    "@types/react-github-button": "^0.1.1",
     "@types/react-helmet": "^6.1.2"
   },
   "eslintConfig": {

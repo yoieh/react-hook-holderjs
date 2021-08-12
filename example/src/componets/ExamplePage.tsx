@@ -5,11 +5,14 @@ import {
   Center,
   Col,
   Container,
-  Paper
+  Paper,
+  Group,
+  Grid
 } from "@mantine/core";
 import { Prism } from "@mantine/prism";
 
 import React from "react";
+import { Star, Fork, Watch /*, UsedBy*/ } from "react-github-buttons";
 import Example from "./Example";
 import Head from "./Head";
 
@@ -33,33 +36,88 @@ const ExamplePage = () => {
 
       <Container>
         <Paper>
-          <Title order={1}>useHolder()</Title>
-
-          <Text size='md'>React hook to run holderjs</Text>
-
-          <br></br>
-          <Divider variant='solid' />
-          <br></br>
-
-          <Title order={2}>Installation</Title>
-
-          <Prism language='bash'>npm i use-holderjs</Prism>
-          <Text> or </Text>
-          <Prism language='bash'>yarn add use-holderjs</Prism>
-
-          <br></br>
-          <Divider variant='solid' />
-          <br></br>
-
-          <Title order={3}>Code example:</Title>
-
-          <Center>
-            <Col span={4}>
-              <Example></Example>
+          <Grid>
+            <Col span={12}>
+              <Title order={1}>useHolder()</Title>
             </Col>
-          </Center>
 
-          <Prism language='tsx'>{demoCode}</Prism>
+            <Col span={12}>
+              <Grid>
+                <Col span={3}>
+                  <Text size='md'>React hook to run holderjs</Text>
+                </Col>
+
+                <Col span={7}>
+                  <Group spacing='xs'>
+                    <div>
+                      <a href='https://badge.fury.io/js/use-holderjs'>
+                        <img
+                          src='https://badge.fury.io/js/use-holderjs.svg'
+                          alt='npm version'
+                          height='18'
+                        />
+                      </a>
+                    </div>
+
+                    <div>
+                      <a href='https://app.travis-ci.com/github/yoieh/use-holderjs?branch=main'>
+                        <img
+                          src='https://app.travis-ci.com/yoieh/use-holderjs.svg?branch=main'
+                          alt='build status'
+                          height='18'
+                        />
+                      </a>
+                    </div>
+
+                    <Star owner='yoieh' repo='use-holderjs' />
+                    <Fork owner='yoieh' repo='use-holderjs' />
+                    <Watch owner='yoieh' repo='use-holderjs' />
+                    {/* <UsedBy owner='yoieh' repo='use-holderjs' count={0} /> */}
+                  </Group>
+                </Col>
+              </Grid>
+            </Col>
+
+            <Col span={12}>
+              <Divider variant='solid' />
+            </Col>
+
+            <Col span={12}>
+              <Title order={2}>Installation</Title>
+            </Col>
+
+            <Col span={12}>
+              <Prism language='bash'>npm i use-holderjs</Prism>
+            </Col>
+
+            <Col span={7} offset={3}>
+              <Text> or </Text>
+            </Col>
+
+            <Col span={12}>
+              <Prism language='bash'>yarn add use-holderjs</Prism>
+            </Col>
+
+            <Col span={12}>
+              <Divider variant='solid' />
+            </Col>
+
+            <Col span={12}>
+              <Title order={3}>Code example:</Title>
+            </Col>
+
+            <Col span={12}>
+              <Center>
+                <Col span={4}>
+                  <Example></Example>
+                </Col>
+              </Center>
+            </Col>
+
+            <Col span={12}>
+              <Prism language='tsx'>{demoCode}</Prism>
+            </Col>
+          </Grid>
         </Paper>
       </Container>
     </div>
