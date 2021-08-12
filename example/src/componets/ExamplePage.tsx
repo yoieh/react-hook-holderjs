@@ -12,7 +12,7 @@ import {
 import { Prism } from "@mantine/prism";
 
 import React from "react";
-import { Star, Fork, Watch /*, UsedBy*/ } from "react-github-buttons";
+import { Star, Fork, Watch, Sponsor /*, UsedBy*/ } from "react-github-buttons";
 import Example from "./Example";
 import Head from "./Head";
 
@@ -43,11 +43,11 @@ const ExamplePage = () => {
 
             <Col span={12}>
               <Grid>
-                <Col span={3}>
+                <Col span={12}>
                   <Text size='md'>React hook to run holderjs</Text>
                 </Col>
 
-                <Col span={7}>
+                <Col span={12}>
                   <Group spacing='xs'>
                     <div>
                       <a href='https://badge.fury.io/js/use-holderjs'>
@@ -72,6 +72,7 @@ const ExamplePage = () => {
                     <Star owner='yoieh' repo='use-holderjs' />
                     <Fork owner='yoieh' repo='use-holderjs' />
                     <Watch owner='yoieh' repo='use-holderjs' />
+                    <Sponsor owner='yoieh' repo='use-holderjs' />
                     {/* <UsedBy owner='yoieh' repo='use-holderjs' count={0} /> */}
                   </Group>
                 </Col>
