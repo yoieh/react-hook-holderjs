@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Title,
   Text,
@@ -11,8 +12,8 @@ import {
 } from "@mantine/core";
 import { Prism } from "@mantine/prism";
 
-import React from "react";
 import { Star, Fork, Watch, Sponsor /*, UsedBy*/ } from "react-github-buttons";
+
 import Example from "./Example";
 import Head from "./Head";
 

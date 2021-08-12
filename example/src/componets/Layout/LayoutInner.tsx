@@ -1,4 +1,5 @@
 import React from "react";
+import { Footer } from "./Footer/Footer";
 import Header from "./Header/Header";
 import useStyles from "./Layout.styles";
 
@@ -14,10 +15,10 @@ export const LayoutInner: React.FC<LayoutProps> = ({ children }) => {
       <Header />
 
       <main className={classes.main}>
-        <div className={classes.content}>
-          {children}
-        </div>
+        <div className={classes.content}>{children}</div>
       </main>
+
+      <Footer></Footer>
     </div>
   );
 };
