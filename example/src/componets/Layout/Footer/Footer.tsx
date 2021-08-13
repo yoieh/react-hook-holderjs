@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Text, Group, Button } from "@mantine/core";
+import { Container, Text, Group, Button, Anchor } from "@mantine/core";
 import cx from "clsx";
 import { ArrowRightIcon } from "@modulz/radix-icons";
 import useStyles from "./Footer.styles";
@@ -20,9 +20,7 @@ export function Footer({ withNavbar }: FooterProps) {
         <Container size={1100}>
           <div className={classes.inner}>
             <div className={classes.logoSection}>
-              <Text className={classes.description} size='sm'>
-                Build fully functional accessible web applications with ease
-              </Text>
+              <Text className={classes.description} size='sm'></Text>
             </div>
 
             <div className={classes.groups}>
@@ -51,7 +49,10 @@ export function Footer({ withNavbar }: FooterProps) {
           <div className={classes.afterFooter}>
             <Group position='apart'>
               <Text size='xs' className={classes.afterFooterNote}>
-               
+                Built by using{" "}
+                <Anchor size='xs' href='//mantine.dev'>
+                  Mantine
+                </Anchor>
               </Text>
               <div className={classes.social}>
                 {/* <SocialButton
