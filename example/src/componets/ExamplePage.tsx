@@ -51,9 +51,9 @@ const ExamplePage = () => {
                 <Col span={12}>
                   <Group spacing='xs'>
                     <div>
-                      <a href='https://badge.fury.io/js/use-holderjs'>
+                      <a href='https://www.npmjs.com/package/use-holderjs'>
                         <img
-                          src='https://badge.fury.io/js/use-holderjs.svg'
+                          src='https://img.shields.io/npm/v/use-holderjs.svg'
                           alt='npm version'
                           height='18'
                         />
