@@ -1838,6 +1838,11 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
+"@uiw/react-shields@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@uiw/react-shields/-/react-shields-1.1.1.tgz#dec6e1747f906208c938d56ed5959be66c12c4c7"
+  integrity sha512-FHyFfNKst5/eo1Cb+OFVF/Yyogg7F8p1I9kktGggIHYnQ1IBOot6zftRaV+KgPN2NaLFm7mx0ufx0N5C2McGhQ==
+
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.8.5.tgz#51b1c5fe6576a34953bf4b253df9f0d490d9e359"
@@ -9102,11 +9107,6 @@ react-fast-compare@^3.1.1:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
   integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
-
-react-github-buttons@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/react-github-buttons/-/react-github-buttons-0.5.0.tgz#f7ee1c934ed7410ea63c5fd2feacfc4be294dce2"
-  integrity sha512-Z062cVnNkCvvE3Hm0T+FHr6pjGvE0PKL9Vzl0JDCH7+vc7fuvT1yfYyEe1GBYGyvxna4HSJ8bNexvVl/N8wlhQ==
 
 react-github-fork-ribbon@^0.6.0:
   version "0.6.0"
