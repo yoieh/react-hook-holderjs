@@ -57,6 +57,26 @@ const ExamplePage = () => {
             </Col>
 
             <Col span={12}>
+              <Title order={2}>Code example</Title>
+            </Col>
+
+            <Col span={12}>
+              <Prism language='tsx'>{demoCode}</Prism>
+            </Col>
+
+            <Col span={12}>
+              <Center>
+                <Col span={4}>
+                  <Example></Example>
+                </Col>
+              </Center>
+            </Col>
+
+            <Col span={12}>
+              <Divider variant='solid' />
+            </Col>
+
+            <Col span={12}>
               <Title order={2}>Installation</Title>
             </Col>
 
@@ -70,26 +90,6 @@ const ExamplePage = () => {
 
             <Col span={12}>
               <Prism language='bash'>yarn add use-holderjs</Prism>
-            </Col>
-
-            <Col span={12}>
-              <Divider variant='solid' />
-            </Col>
-
-            <Col span={12}>
-              <Title order={3}>Code example:</Title>
-            </Col>
-
-            <Col span={12}>
-              <Center>
-                <Col span={4}>
-                  <Example></Example>
-                </Col>
-              </Center>
-            </Col>
-
-            <Col span={12}>
-              <Prism language='tsx'>{demoCode}</Prism>
             </Col>
           </Grid>
         </Paper>
