@@ -1,10 +1,13 @@
 {
-  "name": "use-holderjs",
+  "name": "@yoieh/use-holderjs",
   "version": "0.0.8",
   "description": "React hook to run holderjs, useHolderjs()",
   "author": "yoieh",
   "license": "MIT",
-  "repository": "yoieh/use-holderjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoieh/use-holderjs.git"
+  },
   "homepage": "https://yoieh.github.io/use-holderjs/",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",

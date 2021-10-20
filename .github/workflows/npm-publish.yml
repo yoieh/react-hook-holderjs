@@ -23,12 +23,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      # Setup .npmrc file to publish to npm
       - uses: actions/setup-node@v2
         with:
-          node-version: 14
-          registry-url: https://registry.npmjs.org/
-      - run: npm ci
-      - run: echo registry=https://npm.pkg.github.com/yoieh >> .npmrc
+          node-version: '12.x'
+          registry-url: 'https://registry.npmjs.org'
+      - run: npm install
+      - run: npm build
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.PUBLISH_NPM_TOKEN}}
@@ -46,6 +47,7 @@ jobs:
           node-version: 14
           registry-url: https://npm.pkg.github.com/
           scope: '@yoieh'
+      - run: npm install
       - run: npm build
       - run: npm publish
         env:
