@@ -12,16 +12,16 @@ jobs:
       script:
         - yarn test
         - yarn build
-    - stage: npm release
-      script: yarn build
-      deploy:
-        provider: npm
-        email: $NPM_EMAIL
-        api_key: $NPM_TOKEN
-        skip_cleanup: true
-        on:
-          branch: main
-          # tags: true
+    # - stage: npm release
+    #   script: yarn build
+    #   deploy:
+    #     provider: npm
+    #     email: $NPM_EMAIL
+    #     api_key: $NPM_TOKEN
+    #     skip_cleanup: true
+    #     on:
+    #       branch: main
+    #       # tags: true
     - stage: deploy gh-pages
       script: yarn run predeploy
       deploy:
