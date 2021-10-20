@@ -7,9 +7,9 @@ export const Bages = () => {
   return (
     <Group spacing='xs'>
       <div>
-        <a href='https://www.npmjs.com/package/use-holderjs'>
+        <a href='https://www.npmjs.com/package/@yoieh/use-holderjs'>
           <img
-            src='https://img.shields.io/npm/v/use-holderjs.svg'
+            src='https://img.shields.io/npm/v/@yoieh/use-holderjs.svg'
             alt='npm version'
             height='20'
           />
